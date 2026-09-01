@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/basic.js"></script>
+    <title>Info</title>
+</head>
+<body>    
+    <header>
+            <nav><div><a href=".">Home</a> <a href="http://google.com">Google</a></div></nav>
+            <h1>Tank</h1>
+    </header>
+
+    <main>
+        <p>Name: <strong>John Doe</strong></p>
+        <p>Size: MASSIVE</p>
+        <img src="images/Tiger.png" alt="BIG BOY">
+
+        <h2>Info</h2>
+        <p>scariest tank to fight against</p> 
+        <p>big BOY gunnnnn</p>
+        <p>thick armourrrrrrrrrrrrrrrrr</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Turret</td>
+                    <td>big gun</td>
+                </tr>
+                <tr>
+                    <td>Armour</td>
+                    <td>THICK armour</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--<ol>
+            <li>scariest tank to fight against</li>
+            <li>big boy gun</li>
+            <li>thick armour</li> 
+        </ol>-->
+
+        <h2>Showcase</h2>
+        <p><a href="https://www.youtube.com/watch?v=dXP0QhbBDC8">Tiger I showcase</a></p>
+
+
+        <h2>Leave a note</h2>
+        <!--<form action="" method="GET">-->
+            <fieldset>
+                <legend>Information:</legend>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Enter here">
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Enter here">
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="0" max="100" placeholder="Enter">
+            </fieldset>
+
+
+
+            <label for="mood">Whats your mood?</label>
+            <select id="mood" name="mood">
+                <option value="happy">Happy</option>
+                <option value="sad">Sad</option>
+                <option value="angry">Angry</option>
+            </select>
+            <br>
+
+            <textarea name="comment" id="comment" rows="10" cols="30" placeholder="Leave a note"></textarea>
+            <!-- <input type="submit" value="Submit"> -->
+            <button id="add note">Add Note</button>
+            <button id="remove note">Remove Note</button>
+
+        <!--</form>-->
+        <div id="notes">
+
+        </div> 
+            
+
+    </main>
+
+    <footer>
+        <p>© 2024 <span class="red">John Doe</span></p>
+    </footer>
+
+ </body>
+ </html>
